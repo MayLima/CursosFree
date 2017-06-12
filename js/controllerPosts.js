@@ -18,5 +18,3 @@ angular.module('app.controller',['app.service'])
     GetAllPosts();
 
 });
-
-

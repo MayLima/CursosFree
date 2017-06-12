@@ -10,7 +10,8 @@ angular.module('app.controller',['app.service'])
          $scope.users = user.data;
 
       }, function () {
-         alert('Erro');
+         alert("error");
+         deferred.reject(error);
       });
     }
           

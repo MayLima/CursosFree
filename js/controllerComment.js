@@ -10,7 +10,8 @@ angular.module('app.controller',['app.service'])
          $scope.comments = comment.data;
 
       }, function () {
-         alert('Erro');
+         alert("error");
+         deferred.reject(error);
       });
     }
           
