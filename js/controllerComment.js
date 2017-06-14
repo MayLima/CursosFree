@@ -9,8 +9,10 @@ angular.module('app.controller',['app.service'])
       getCommentsData.then(function (comment) {
          $scope.comments = comment.data;
 
+
       }, function(err) {
     console.error('ERR', err.status);
+
       });
     }
           

@@ -9,8 +9,10 @@ angular.module('app.controller',['app.service'])
       getUsersData.then(function (user) {
          $scope.users = user.data;
 
+
       },function(err) {
     console.error('ERR', err.status);
+
       });
     }
           

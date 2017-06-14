@@ -10,8 +10,10 @@ angular.module('app.controller',['app.service'])
       getPostsData.then(function (post) {
          $scope.posts = post.data;
 
+
       }, function(err) {
     console.error('ERR', err.status);
+
       });
     }
           
