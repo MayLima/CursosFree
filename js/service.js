@@ -3,11 +3,11 @@ angular.module('app.service',[]).service('Service', function ($http) {
 
     //conectando com as APIs   
      this.getComments = function(){
-    	return $http.get('http://jsonplaceholder.typicode.com/comments');
+    	return $http.get('https://jsonplaceholder.typicode.com/comments');
     },
 
     this.getUsers = function(){
-    	return $http.get('http://jsonplaceholder.typicode.com/users');
+    	return $http.get('https://jsonplaceholder.typicode.com/users');
 
     },
      this.getPosts = function () {
